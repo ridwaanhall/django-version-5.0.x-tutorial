@@ -18,15 +18,15 @@ New to Django? Or to web development in general? Well, you came to the right pla
 
 - Creating a virtual environment
 
-```bash
-virtualenv your-virtualenv-name
-```
+    ```bash
+    virtualenv your-virtualenv-name
+    ```
 
 - Installing Django and its dependencies
 
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ### Part 1
 
