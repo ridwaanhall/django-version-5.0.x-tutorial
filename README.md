@@ -4,19 +4,38 @@ New to Django? Or to web development in general? Well, you came to the right pla
 
 ## Overview
 
+- Creating a virtual environment
+- Part 1: Creation of a basic poll application
+- Part 2: Start working with the database
+- Part 3: Learn about how to add more views to our polls app
+- Part 4: Learn the basics about form processing and generic views
+- Part 5: Learn about testing our polls app
+- Part 6: Learn about static files management
+- Part 7: Learn how to customize Django’s automatically-generated admin site
+- Part 8: Learn how to use third-party packages
+
 ### Creating a virtual environment
 
 - Creating a virtual environment
+
+```bash
+virtualenv your-virtualenv-name
+```
+
 - Installing Django and its dependencies
 
-### Writing your first Django app, part 1
+```bash
+pip install -r requirements.txt
+```
+
+### Part 1
 
 - Creating a project
 - The development server
 - Creating the Polls app
 - Write your first view
 
-### Writing your first Django app, part 2
+### Part 2: Start working with the database
 
 - Database setup
 - Creating models
@@ -24,7 +43,7 @@ New to Django? Or to web development in general? Well, you came to the right pla
 - Playing with the API
 - Introducing the Django Admin
 
-### Writing your first Django app, part 3
+### Part 3: Learn about how to add more views to our polls app
 
 - Overview
 - Writing more views
@@ -34,12 +53,12 @@ New to Django? Or to web development in general? Well, you came to the right pla
 - Removing hardcoded URLs in templates
 - Namespacing URL names
 
-### Writing your first Django app, part 4
+### Part 4: Learn the basics about form processing and generic views
 
 - Write a minimal form
 - Use generic views: Less code is better
 
-### Writing your first Django app, part 5
+### Part 5: Learn about testing our polls app
 
 - Introducing automated testing
 - Basic testing strategies
@@ -49,12 +68,12 @@ New to Django? Or to web development in general? Well, you came to the right pla
 - Further testing
 - What’s next?
 
-### Writing your first Django app, part 6
+### Part 6: Learn about static files management
 
 - Customize your app’s look and feel
 - Adding a background-image
 
-### Writing your first Django app, part 7
+### Part 7: Learn how to customize Django’s automatically-generated admin site
 
 - Customize the admin form
 - Adding related objects
@@ -62,7 +81,7 @@ New to Django? Or to web development in general? Well, you came to the right pla
 - Customize the admin look and feel
 - Customize the admin index page
 
-### Writing your first Django app, part 8
+### Part 8: Learn how to use third-party packages
 
 - Installing Django Debug Toolbar
 - Getting help from others
